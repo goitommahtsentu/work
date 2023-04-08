@@ -1,0 +1,102 @@
+@media (min-width: 992px) {
+    .servicesFetauresList {
+      padding-top: 12px;
+    }
+  }
+  
+  .servicesFetauresList > li {
+    margin-bottom: 30px;
+  }
+  
+  @media (min-width: 576px) {
+    .servicesFetauresList > li {
+      width: 50%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .servicesFetauresList > li {
+      width: 25%;
+    }
+  }
+  
+  .servicesFetauresList > li > a {
+    display: block;
+    color: #114a82;
+  }
+  
+  .servicesFetauresList > li > a:hover .icnHolder {
+    -webkit-box-shadow: 0 5px 5px rgba(19, 41, 61, 0.05);
+    box-shadow: 0 5px 5px rgba(19, 41, 61, 0.05);
+    color: #4c58a4;
+  }
+  
+  .servicesFetauresList .icnHolder {
+    color: #2f80ed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0 auto 22px;
+    border: 3px solid transparent;
+    position: relative;
+    font-size: 54px;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .servicesFetauresList .icnHolder:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .servicesFetauresList .icnHolder:before {
+    border-radius: inherit;
+    border: 2px solid #f0f9fb;
+    pointer-events: none;
+  }
+  
+  .servicesFetauresList h2, .servicesFetauresList .h2 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.25;
+    color: inherit;
+  }
+  
+
+  /* servicesFetauresList styles */
+.servicesFetauresList {
+    margin-bottom: 0;
+  }
+  
+  @media (min-width: 576px) {
+    .servicesFetauresList {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 0 -10px;
+    }
+  }
+
+  .roundedCircle {
+    border-radius: 100%;
+}

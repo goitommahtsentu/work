@@ -1,0 +1,311 @@
+.container{
+    width: 100vw;
+}
+.visualPostColumn .captionWrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    padding: 24px 10px;
+}
+
+.visualPostColumn h3, .visualPostColumn .h3 {
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    margin: 30px 0 -46px;
+    font-size: 14px;
+    line-height: 1.14286;
+}
+.visualPostColumn:hover h3, .visualPostColumn:hover .h3 {
+    margin: 0;
+}
+
+.mostPostsBlock {
+    padding-top: 35px;
+    padding-bottom: 41px;
+}
+
+.bgWhite {
+    background-color: #fff;
+}
+
+
+
+
+.visualPostColumn.type02 {
+    padding-top: 50%;
+  }
+  
+  @media (min-width: 768px) {
+    .visualPostColumn.type02 {
+      padding-top: 44.3%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .visualPostColumn.type02 {
+      padding-top: 37.3%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .visualPostColumn.type02 {
+      padding-top: 37.9%;
+    }
+  }
+
+
+h1.fontNeuron, .h1.fontNeuron, h2.fontNeuron, .h2.fontNeuron, h3.fontNeuron, .h3.fontNeuron, h4.fontNeuron, .h4.fontNeuron, h5.fontNeuron, .h5.fontNeuron, h6.fontNeuron, .h6.fontNeuron {
+    letter-spacing: 1.4px;
+}
+
+.visualPostColumn.type03 {
+    padding-top: 65%;
+  }
+  
+  @media (min-width: 768px) {
+    .visualPostColumn.type03 {
+      padding-top: 87.9%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .visualPostColumn.type03 {
+      padding-top: 79.9%;
+    }
+  }
+  
+  
+
+.visualPostColumn {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.textWhite {
+    color: #fff;
+}
+
+.elemenBlock {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.visualPostColumn .bgCover {
+    -webkit-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 2;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.bgCover {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.fwNormal {
+    font-weight: 400;
+}
+
+.fontNeuron {
+    font-family: "Neuron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.visualPostColumn h2, .visualPostColumn .h2 {
+    margin: 0 0 11px;
+    font-size: 16px;
+    line-height: 1.125;
+}
+
+
+.visualPostColumn h3, .visualPostColumn .h3 {
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    margin: 30px 0 -46px;
+    font-size: 14px;
+    line-height: 1.14286;
+}
+
+.visualPostColumn h3, .visualPostColumn .h3 {
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    margin: 30px 0 -46px;
+    font-size: 14px;
+    line-height: 1.14286;
+}
+.visualPostColumn h2, .visualPostColumn .h2, .visualPostColumn h3, .visualPostColumn .h3 {
+    color: inherit;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+}
+h1.fontNeuron, .h1.fontNeuron, h2.fontNeuron, .h2.fontNeuron, h3.fontNeuron, .h3.fontNeuron, h4.fontNeuron, .h4.fontNeuron, h5.fontNeuron, .h5.fontNeuron, h6.fontNeuron, .h6.fontNeuron {
+    letter-spacing: 1.4px;
+}
+.fwNormal {
+    font-weight: 400;
+}
+
+.visualPostColumn:after {
+    background-color: #2f80ed;
+    z-index: 1;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+.visualPostColumn:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.elemenBlock {
+    display: block;
+}
+
+.blockH {
+    margin: 0 0 30px;
+    font-size: 23px;
+}
+
+
+.blockH .bdrBottom {
+    display: inline-block;
+    border-bottom: 1px solid #c2d6db;
+    padding-bottom: 11px;
+}
+.textSecondary {
+    color: #4c58a4;
+}
+
+a:hover, a:focus {
+    color: #12b5ea;
+    text-decoration: none;
+}
+.mostPostsBlock {
+    padding-top: 35px;
+    padding-bottom: 41px;
+}
+
+.bgWhite {
+    background-color: #fff;
+}
+
+.visualPostColumn {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+.visualPostColumn:before {
+    z-index: 3;
+    pointer-events: none;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(19, 41, 61, 0)), to(rgba(19, 41, 61, 0.8)));
+    background: -webkit-linear-gradient(top, rgba(19, 41, 61, 0) 30%, rgba(19, 41, 61, 0.8) 100%);
+    background: -o-linear-gradient(top, rgba(19, 41, 61, 0) 30%, rgba(19, 41, 61, 0.8) 100%);
+    background: linear-gradient(to bottom, rgba(19, 41, 61, 0) 30%, rgba(19, 41, 61, 0.8) 100%);
+}
+.visualPostColumn:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.visualPostColumn:hover:after {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.visualPostColumn:after {
+    background-color: #2f80ed;
+    z-index: 1;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.visualPostColumn:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.visualPostColumn:hover {
+    color: rgb(255, 255, 255);
+}
+
+.visualPostColumn:hover .bgCover {
+    opacity: 0.4;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.visualPostColumn.type01 {
+    padding-top: 93%;
+  }
+  
+  @media (min-width: 992px) {
+    .visualPostColumn.type01 {
+      padding-top: 81.1%;
+    }
+  }
+
+  
+a:hover, a:focus {
+    color: #12b5ea;
+    text-decoration: none;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.visualPostColumn {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.textWhite {
+    color: #fff;
+}
+.elemenBlock {
+    display: block;
+}
+.text-center {
+    text-align: center;
+}

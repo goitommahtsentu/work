@@ -1,0 +1,597 @@
+.chosen-container {
+    position: relative;
+    text-align: left;
+    font-size: 13px;
+    height: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1.84615;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    min-width: 320px;
+    -ms-overflow-style: scrollbar;
+    letter-spacing: 0.52px;
+}
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.84615;
+    color: #8e99a3;
+    background-color: #f0f9fb;
+}
+
+
+findFormBlock select {
+    width: 100%;
+    height: 50px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    border: 1px solid #aaa;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.chosen-container-active .chosen-single {
+    border: 1px solid #5897fb;
+}
+
+.chosen-container-single .chosen-single div:before {
+    border: solid currentColor;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(
+45deg) translateX(-50%);
+    -ms-transform: rotate(45deg) translateX(-50%);
+    transform: rotate(
+45deg) translateX(-50%);
+    margin-top: -1px;
+    width: 6px;
+    height: 6px;
+}
+.chosen-container-single .chosen-single div:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    bottom: auto;
+    left: 90%;
+    right: auto;
+}
+
+.chosen-container-single .chosen-single {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 12px ;
+    height: 100%;
+    border: 1px solid #dfebee;
+    background-color: #fff;
+    color: #8e99a3;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.chosen-container a {
+    cursor: pointer;
+}
+a, button, .form-control, .socialNetworks.postColumnSocial, .headerAbsolute .logo, #pageNav .navbar-toggle .icon-bar, .pageMainNav.pageMainNav1 > li.dropdown:before, .pageMainNav.nav.pageMainNav1 > li.dropdown:before, .pageMainNav.navbar-default.pageMainNav1 > li.dropdown:before, .pageMainNav.pageMainNav1 > li > a:after, .pageMainNav.nav.pageMainNav1 > li > a:after, .pageMainNav.navbar-default.pageMainNav1 > li > a:after, .pageMainNav.pageMainNav2 > li.dropdown:before, .pageMainNav.nav.pageMainNav2 > li.dropdown:before, .pageMainNav.navbar-default.pageMainNav2 > li.dropdown:before, .pageMainNav.pageMainNav2 > li > a:after, .pageMainNav.nav.pageMainNav2 > li > a:after, .pageMainNav.navbar-default.pageMainNav2 > li > a:after, .pageMainNav.pageMainNav3 > li.dropdown:before, .pageMainNav.nav.pageMainNav3 > li.dropdown:before, .pageMainNav.navbar-default.pageMainNav3 > li.dropdown:before, .pageMainNav.pageMainNav3 > li > a:after, .pageMainNav.nav.pageMainNav3 > li > a:after, .pageMainNav.navbar-default.pageMainNav3 > li > a:after, .pageMainNav.pageMainNav4 > li.dropdown:before, .pageMainNav.nav.pageMainNav4 > li.dropdown:before, .pageMainNav.navbar-default.pageMainNav4 > li.dropdown:before, .pageMainNav.pageMainNav4 > li > a:after, .pageMainNav.nav.pageMainNav4 > li > a:after, .pageMainNav.navbar-default.pageMainNav4 > li > a:after, .pageMainNav.pageMainNav5 > li.dropdown:before, .pageMainNav.nav.pageMainNav5 > li.dropdown:before, .pageMainNav.navbar-default.pageMainNav5 > li.dropdown:before, .pageMainNav.pageMainNav5 > li > a:after, .pageMainNav.nav.pageMainNav5 > li > a:after, .pageMainNav.navbar-default.pageMainNav5 > li > a:after, .pageMainNav > li.dropdown:before, .pageMainNav.nav > li.dropdown:before, .pageMainNav.navbar-default > li.dropdown:before, .pageMainNav > li > a:after, .pageMainNav.nav > li > a:after, .pageMainNav.navbar-default > li > a:after, .pageMainNavDropdown, .pageMainNavDropdown.dropdown-menu, .UserLinksList .icn, .headerModalOpener .openerIcon:before, .headerModalOpener .openerIcon:after, .postColumn, .visualPostColumn:after, .servicesFetauresList .icnHolder, .profileColumn, .postColumn__ListView, .rightPanelList .icn, .rightPanelList .textCaption, .anchorNavigationList > li > a:after {
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transition-property: color, background, border, visibility, opacity, left, right, top, bottom, width, height, -webkit-box-shadow, -webkit-transform;
+    transition-property: color, background, border, visibility, opacity, left, right, top, bottom, width, height, -webkit-box-shadow, -webkit-transform;
+    -o-transition-property: color, box-shadow, background, border, visibility, opacity, left, right, top, bottom, transform, width, height;
+    transition-property: color, box-shadow, background, border, visibility, opacity, left, right, top, bottom, transform, width, height;
+    transition-property: color, box-shadow, background, border, visibility, opacity, left, right, top, bottom, transform, width, height, -webkit-box-shadow, -webkit-transform;
+}
+a {
+    color: #56ccf2;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.chosen-container {
+    position: relative;
+    text-align: left;
+    font-size: 13px;
+    height: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1.84615;
+}
+
+
+.chosen-container.chosen-with-drop .chosen-drop {
+    clip: auto;
+}
+
+.chosen-container-single .chosen-drop {
+    margin-top: 0;
+    background-clip: padding-box;
+}
+.chosen-container .chosen-drop {
+    position: absolute;
+    top: 100%;
+    z-index: 1010;
+    width: 100%;
+    border: 1px solid #dfebee;
+    border-top: 0;
+    background: #fff;
+    clip: rect(0, 0, 0, 0);
+}
+
+
+.chosen-container .chosen-results {
+    color: #444;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    max-height: 240px;
+    -webkit-overflow-scrolling: touch;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.chosen-container {
+    position: relative;
+    text-align: left;
+    font-size: 13px;
+    height: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1.84615;
+}
+
+.chosen-container .chosen-results li.active-result {
+    display: list-item;
+    cursor: pointer;
+}
+.chosen-container .chosen-results li {
+    position: relative;
+    padding-left: 41px;
+}
+.chosen-container .chosen-results li {
+    display: none;
+    margin: 0;
+    color: #8e99a3;
+    padding: 8px 12px;
+    list-style: none;
+    line-height: 15px;
+    -webkit-touch-callout: none;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.chosen-container .chosen-results {
+    color: #444;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    max-height: 240px;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.chosen-container .chosen-results li.active-result {
+    display: list-item;
+    cursor: pointer;
+}
+.chosen-container .chosen-results li {
+    position: relative;
+    padding-left: 41px;
+}
+.chosen-container .chosen-results li {
+    display: none;
+    margin: 0;
+    color: #8e99a3;
+    padding: 8px 12px;
+    list-style: none;
+    line-height: 15px;
+    -webkit-touch-callout: none;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.chosen-container .chosen-results li.result-selected::before {
+    background-color: #56ccf2;
+    border-color: #56ccf2;
+}
+.chosen-container .chosen-results li:before {
+    border: 1px solid #dfebee;
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+}
+.chosen-container .chosen-results li:before {
+    position: absolute;
+    content: "";
+    top: 8px;
+    bottom: auto;
+    left: 13px;
+    right: auto;
+}
+
+
+.chosen-container .chosen-results li.result-selected:after {
+    display: block;
+}
+.chosen-container .chosen-results li:after {
+    border: solid #fff;
+    border-width: 0 0 2px 2px;
+    margin-top: 2px;
+    -webkit-transform: rotate(
+-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(
+-45deg);
+    display: none;
+    width: 12px;
+    height: 6px;
+}
+.chosen-container .chosen-results li:after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    bottom: auto;
+    left: 15px;
+    right: auto;
+}
+
+.slider.slider-horizontal {
+    width: 100%;
+    height: 2;
+}
+
+.slider {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.slider.slider-horizontal .slider-track {
+    height: 2px;
+    width: 100%;
+    margin-top: -5px;
+    top: 50%;
+    left: 0;
+}
+
+.slider-track {
+    position: absolute;
+    cursor: pointer;
+    background: #deedf0;
+}
+
+
+
+@media (min-width: 480px){
+
+    .otherFeaturesCollapse .checkList {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin: 0 -5px;
+    }
+}
+
+.otherFeaturesCollapse .checkList {
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.text-primary {
+    color: #13293d;
+}
+
+
+/* otherFeaturesCollapse styles */
+.otherFeaturesCollapse .checkList {
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  
+  @media (min-width: 480px) {
+    .otherFeaturesCollapse .checkList {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      margin: 0 -5px;
+    }
+  }
+  
+  .otherFeaturesCollapse .checkList > li {
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: 768px) {
+    .findFormBlock .orderRow {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .findFormBlock .orderRow:after, .findFormBlock .orderRow:before {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .findFormBlock .orderRow:after, .findFormBlock .orderRow:before {
+      display: none;
+    }
+  }  
+
+  @media (min-width: 768px) {
+    .findFormBlock .order1 {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .findFormBlock .order2 {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+    }
+  }
+  @media (min-width: 768px) {
+    .findFormBlock .order3 {
+      -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+      order: 3;
+    }
+  }
+  .customFormInputReset:checked + .fakeCheckbox {
+    background-color: #56ccf2;
+    border-color: #56ccf2;
+}
+
+.customFormInputReset {
+    position: fixed;
+    z-index: -9999;
+    left: -9999px;
+    top: 0;
+}
+
+.customFormInputReset:checked + .fakeCheckbox:before {
+    opacity: 1;
+    visibility: visible;
+}
+.fakeLabel{
+    color:black
+}
+.customLabelCheck .fakeCheckbox:before {
+    border: solid #fff;
+    border-width: 0 0 2px 2px;
+    margin: 2px 0 0 1px;
+    -webkit-transform: rotate(
+-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(
+-45deg);
+    opacity: 0;
+    visibility: hidden;
+    width: 12px;
+    height: 7px;
+}
+.customLabelCheck .fakeCheckbox:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: auto;
+}
+.customLabelCheck .fakeCheckbox {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border: 1px solid #dfebee;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+}
+  
+  @media (min-width: 480px) {
+    .otherFeaturesCollapse .checkList > li {
+      width: 50%;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .otherFeaturesCollapse .checkList > li {
+      width: 33.333%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .otherFeaturesCollapse .checkList > li {
+      width: 25%;
+    }
+  }
+  
+  @media (min-width: 480px) {
+    .widgetFindFormBlock .otherFeaturesCollapse .checkList > li {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .widgetFindFormBlock .otherFeaturesCollapse .checkList > li {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .widgetFindFormBlock .otherFeaturesCollapse .checkList > li {
+      width: 100%;
+    }
+  }
+
+  .container:after {
+    clear: both;
+}
+
+.btnSecondary {
+    background-color: #4c58a4;
+    color: #fff;
+    border-color: #4c58a4;
+}
+
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+
+.customLabelCheck {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.fwNormal {
+    font-weight: 400;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.in.collapse:not(.show) {
+    display: block;
+}
+
+
+.findFormBlock {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+.hasShadow {
+    -webkit-box-shadow: 0 7px 4px -4px rgb(19 41 61 / 5%);
+    box-shadow: 0 7px 4px -4px rgb(19 41 61 / 5%);
+}
+.bgWhite {
+    background-color: #fff;
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    display: block;
+    margin: 0;
+    width: 100%;
+    background: blue;
+  }
+
+  
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    background: black;
+    box-shadow: 0px 2px 10px -2px black(1);
+    position: relative;
+    z-index: 2;
+    box-shadow: 1.1px 1.1px 6.8px rgba(0, 0, 0, 0), 0px 0px 1.1px rgba(13, 13, 13, 0);
+    border: 0px solid #000000;
+    background: url(../../assets/images/line-icon.png);
+    background-size: 43%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

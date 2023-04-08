@@ -1,0 +1,25 @@
+// import './chat';
+// import './todo';
+// import './taskboard';
+// import './calendar';
+export { default as Trusts} from './trustService' 
+export { default as Contacts} from './contactService' 
+export { default as Bills} from './billService' 
+export {default as Addresses} from './addressService'
+export { default as Chatters} from './chatterService'
+export { default as Documents} from './documentService'  
+export { default as Images} from './imageService' 
+export { default as Lanes} from './laneService' 
+export { default as OwnerShips} from './ownershipService' 
+export { default as SubContacts} from './subContactService'
+export { default as Wallets} from './walletService'  
+export { default as Investors} from './investorService'  
+export { default as FamilyLeads} from './familyLeadService'
+export {default as InvestorLeads} from './investorLeadService'
+export {default as Families} from './familyService'
+export {default as Properties} from './publicService'
+export {default as Situations} from './situationService'
+export {default as Todos } from './todoService'
+export {default as Accounts} from './acountService'
+export {default as Users} from './userService'
+export {default as CustomLinkCall} from './customeApiCall'

@@ -1,0 +1,280 @@
+@media (min-width: 992px) {
+    .profileColumn {
+      min-height: 350px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .profileColumn {
+      min-height: 403px;
+    }
+  }
+  
+  .profileColumn:hover .textWrap {
+    -webkit-box-shadow: 0 7px 4px -4px rgba(19, 41, 61, 0.05);
+    box-shadow: 0 7px 4px -4px rgba(19, 41, 61, 0.05);
+    border-color: #56ccf2;
+  }
+  
+  .profileColumn:hover .collapseWrap {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  @media (min-width: 640px) {
+    .profileColumn:hover .collapseWrap {
+      max-height: 55px;
+    }
+  }
+  
+  .profileColumn .textWrap {
+    border: 1px solid #dfebee;
+    border-top: 0;
+    padding: 18px 17px 14px;
+  }
+  
+  .profileColumn .collapseWrap {
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  
+  @media (min-width: 640px) {
+    .profileColumn .collapseWrap {
+      max-height: 0;
+    }
+  }
+  
+  .profileColumn h2, .profileColumn .h2 {
+    margin: 0 0 6px;
+    font-size: 20px;
+  }
+  
+  .profileColumn h3, .profileColumn .h3 {
+    margin: 0 0 20px;
+    font-size: 13px;
+    color: #8e99a3;
+  }
+  
+  .profileColumn .aligncenter {
+    margin: -1px 0 0;
+  }
+  
+  .profileColumn .aligncenter img {
+    display: block;
+    max-width: none;
+    width: 100%;
+  }
+
+  
+  .profileColumnSocial > li {
+    margin-right: 10px;
+  }
+  
+  .profileColumnSocial > li > a {
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #94b6be;
+    background-color: #f0f9fb;
+    font-size: 13px;
+    width: 33px;
+    height: 33px;
+  }
+  
+  .profileColumnSocial > li > a:hover {
+    color: #fff;
+    background-color: #74a0ab;
+  }
+  
+  /* profilesSlider styles */
+  .profilesSlider {
+    padding-bottom: 70px;
+  }
+  
+  @media (min-width: 576px) {
+    .profilesSlider {
+      padding: 0 70px;
+    }
+  }
+  
+  @media (min-width: 1350px) {
+    .profilesSlider {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  .profilesSlider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #56ccf2;
+    color: #fff;
+    margin-top: -50px;
+    font-size: 19px;
+    width: 45px;
+    height: 100px;
+  }
+
+  
+  @media (min-width: 1350px) {
+     .slick-prev {
+      left: auto;
+      right: 100%;
+      margin-right: 15px;
+    }
+  }
+  
+   .slick-next {
+    right: 0;
+  }
+  
+  @media (min-width: 1350px) {
+ .slick-next {
+      right: auto;
+      left: 100%;
+      margin-left: 15px;
+    }
+  }
+  
+
+
+/* profileColumn styles */
+.profileColumn {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .profileColumn.style2 .textWrap {
+    border: none;
+  }
+  
+  @media (min-width: 640px) {
+    .profileColumn {
+      min-height: 412px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .profileColumn {
+      min-height: 420px;
+    }
+  }
+  
+  
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+  }
+  
+  [dir="rtl"] .slick-slide {
+    float: right;
+  }
+  
+  .slick-slide img {
+    display: block;
+  }
+  
+  .slick-slide.slick-loading img {
+    display: none;
+  }
+  
+  .slick-slide.dragging img {
+    pointer-events: none;
+  }
+  
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+  
+  .slick-loading .slick-slide {
+    visibility: hidden;
+  }
+  
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+  
+  
+
+  .slick-slide.slick-current.slick-active .introSlideCaption {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+
+  
+  .slick-slide > div { margin: 0 10px; }
+  .slick-dots{
+      display: none !important;
+  }
+
+
+.slick-next {
+    right: 0;
+}
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #56ccf2;
+    color: #fff;
+    margin-top: -50px;
+    font-size: 19px;
+    width: 45px;
+    height: 100px;
+}
+
+
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: white;
+    outline: none;
+    background: black;
+}
